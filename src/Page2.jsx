@@ -4,9 +4,9 @@ export const Page2 = () =>{
 
     return (
         
-   <div className="container content-wrapper page21">
+   <div className="container content-wrapper page2">
    <div className="row">
-       <div className="col-md-6 page22">
+       <div className="col-md-6">
            <div className="pin1"></div>
            <div className="pin2"></div>
            <div className="pin3"></div>
@@ -19,18 +19,18 @@ export const Page2 = () =>{
        </div>
 
 
-       <div className="col-md-6 page23">
-           <h1 className="page24"> Metaverse <br></br>
-           Metaverse <span className="page25">Development </span> </h1>
+       <div className="col-md-6 ">
+           <h1> Metaverse <br></br>
+           Metaverse <span className="name">Development </span> </h1>
 
            <p className="page26">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad alias necessitatibus iste impedit? Facilis fugiat ex enim quo nostrum tempora repellat hic explicabo. Dicta fugit vel animi voluptatum velit illum! Lorem ipsum  sit amet consectetur adipisicing elit. Fuga nam, impedit aliquam iure pariatur eaque sapiente consequatur, et est</p>
 
            <div className="ben1">
                <div className="dropdown">
                    <button className="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                       <span className="glyphicon glyphicon-sound-5-1 page27" aria-hidden="true"></span>
-                       <p className="page28">necessitatibus iste impedit?</p>
-                       <span className="caret page29"></span>
+                       <span className="glyphicon glyphicon-sound-5-1 " aria-hidden="true"></span>
+                       <p className="p3">necessitatibus iste impedit?</p>
+                       <span></span>
                        </button>
                    <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
                      <li><a href="#">Action</a></li>
@@ -47,8 +47,8 @@ export const Page2 = () =>{
                 <div class="dropdown">
                     <button class="btn btn-default dropdown-toggle1" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <span class="glyphicon glyphicon-sound-5-1 page30" aria-hidden="true" ></span>
-                        <p className="page31">Necessitatibus iste impedit? </p>
-                       <p className="page32">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci optio veniam, laborum amet sunt eos,
+                        <p className="p3">Necessitatibus iste impedit? </p>
+                       <p className="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci optio veniam, laborum amet sunt eos,
                         <br></br>
                          quibusdam autem perspiciatis corporis earum eius distinctio! Atque quasi fuga odit repudiandae,
                           <br></br>
@@ -74,8 +74,8 @@ export const Page2 = () =>{
                 <div class="dropdown">
                     <button class="btn btn-default dropdown-toggle2" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <span class="glyphicon glyphicon-sound-5-1 page34" aria-hidden="true" ></span>
-                        <p className="page35">necessitatibus iste impedit?</p>
-                        <span className="caret page36"></span>
+                        <p className="p3">necessitatibus iste impedit?</p>
+                        <span className="caret p"></span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                       <li><a href="#">Action</a></li>
