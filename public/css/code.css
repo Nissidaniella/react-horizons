@@ -36,11 +36,15 @@
   color: red;
 }
 
+body{
+    background-color: black;
+}
+
 .page1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(2, 7, 29);
   margin-top: 20px;
   margin-left: 35px;
   height: 450px;
@@ -102,7 +106,7 @@
 }
 
 .page2 {
-  background-color: black;
+  background-color: rgb(2, 7, 29);
   margin-top: 0px;
   width: 1500px;
   margin-left: 35px;
@@ -187,8 +191,10 @@ h1 {
 }
 
 .col-md-6 .caret {
-    margin-left: 667px; color: rgb(223, 31, 63); margin-top: -50px;
-  }
+  margin-left: 667px;
+  color: rgb(223, 31, 63);
+  margin-top: -50px;
+}
 
 .col-md-6 .glyphicon {
   background-color: rgb(223, 31, 63);
@@ -201,48 +207,55 @@ h1 {
   color: black;
 }
 
-
-.col-md-6 .p3{
-    width: 190px;margin-left: 30px; margin-top: -20px; font-size: 15px;
-  }
-
-  .dropdown-toggle{
-    color: #989797;
-    width: 700px;
-    background-color:transparent;
-    text-align: start;
-    padding: 10px;
-    border-color:#989797;
-    height: 50px;
-    margin-top: 30px;
+.col-md-6 .p3 {
+  width: 190px;
+  margin-left: 30px;
+  margin-top: -20px;
+  font-size: 15px;
 }
 
-.dropdown-toggle1{
-    color: #989797;
-    width: 700px;
-    background-color: rgb(223, 31, 63);
-    text-align: start;
-    padding: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-color:#989797;
-    margin-top :15px;
-    height: 150px;
-   
+.dropdown-toggle {
+  color: #989797;
+  width: 700px;
+  background-color: transparent;
+  text-align: start;
+  padding: 10px;
+  border-color: #989797;
+  height: 50px;
+  margin-top: 30px;
 }
 
-.dropdown-toggle2{
-    color: #989797;
-    width: 700px;
-    background-color:transparent;
-    text-align: start;
-    padding: 10px;
-    border-color:#989797;
-    margin-top: 15px;
-    height: 50px;
-   
+.dropdown-toggle1 {
+  color: #989797;
+  width: 700px;
+  background-color: rgb(223, 31, 63);
+  text-align: start;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: #989797;
+  margin-top: 15px;
+  height: 150px;
 }
 
-.red{
-    
+.dropdown-toggle2 {
+  color: #989797;
+  width: 700px;
+  background-color: transparent;
+  text-align: start;
+  padding: 10px;
+  border-color: #989797;
+  margin-top: 15px;
+  height: 50px;
+}
+
+.red {
+  background-color: rgb(2, 7, 29);
+  width: 1500px;
+  height: 150px;
+  margin-left: 35px;
+}
+
+.line{
+    border: 2px solid red; margin-top: 100px;
 }

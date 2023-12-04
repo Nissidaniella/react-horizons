@@ -1,6 +1,7 @@
 import { Navbar } from "./Navbar"
-import LandingPage from "./Landingpage";
+import LandingPage from "./LandingPage";
 import { Page2 } from "./Page2";
+import { RedLine } from "./RedLine";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      <Navbar/>
     <LandingPage/>
     <Page2/>
+    <RedLine/>
     </>
   );
 }
