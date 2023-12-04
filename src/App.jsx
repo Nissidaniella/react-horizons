@@ -1,5 +1,6 @@
 import { Navbar } from "./Navbar"
 import LandingPage from "./Landingpage";
+import { Page2 } from "./Page2";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
      <Navbar/>
     <LandingPage/>
+    <Page2/>
     </>
   );
 }

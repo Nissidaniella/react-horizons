@@ -1,108 +1,81 @@
-.nav1{
-    background-color: rgb(2, 7, 16);
-     width: 1500px;
-      height: 90px;
-      margin-left: 50px;
-      margin-top: -20%;
-      
-     
-}
-
-.nav2{
-    position: fixed; 
-    top: 0;
-    z-index:100;
-}
-
-.nav3{
-    font-size: 30px;
-     margin-left: 230px;
-      color: #ffffff;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.nav4{
-    color: rgb(252, 79, 79);
-    font-family: f;
-}
-
-.page1{
-    margin-left: 250px; 
-    
-    background-color: rgb(2, 7, 16);
+.nav .col-md-12{
+    background-color: transparent;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
     width: 1500px;
-    margin-left: 50px;
-    padding-left: 240px;
-}
-
-.page2{
-    color: rgb(252, 79, 79) ;
-}
-
-.page3{
-    color: #989797;
-}
-
-.page4{
-    position: sticky
-    ; top: 60px;
-     z-index: 150;
-}
-
-.page5{
-    position: sticky; 
-    top: 60px; 
-    z-index: 150;
-}
-
-.page6{
-    position: sticky;
-     top: 60px; 
-     z-index: 150;
-     
+    margin-left: -30px;
+    gap: 70px;
+    padding-right:150px ;
 }
 
 .center{
-    padding-left: 90px;
-    color: #ffffff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+    color: #ffffff;
+}
+
+.name {
+  color: rgb(252, 79, 79);
+  font-family: f;
+}
+
+.nav h1 {
+  font-size: 30px;
+  margin-left: -65px;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav button{
+    border: 2px solid red;
+    margin-top: -30px;
+    background-color: transparent;
+    color: red;
     
-    margin-left: 410px;
-    margin-top: -100px;
-    
+}
+
+.page1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top:20px ;
+    margin-left: 35px;
+    height:450px ;
+    padding-top:70px ;
+    width: 1500px;
+    padding-left: 100px;
    
 }
 
-.box{
-    border: 2px solid red;
-    margin-top: -15px;
-    background-color: transparent;
-    color: red;
-    margin-left: 100px;
+.page1 h1 {
+    padding-left: 200px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
 }
 
-.b1{
+.page1 p {
+    padding-left: 200px;
+  
+}
+
+.page1 .button1 {
+    margin-left: 200px;
+    position: sticky;
+    z-index: 150;
     background-image: linear-gradient( 1200deg, rgb(226, 44, 93),rgb(253, 170, 143));
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 17px;
-    border-radius: 10px;
+  
 }
 
-.b2{
-   background-color: transparent;
-   border-color:  rgb(101, 103, 110);
-    color: rgb(101, 103, 110);
-    padding-left: 15px;
-    padding-right: 25px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 20px;
-    border-radius: 10px;
+.page1 .button2 {
     margin-left: 20px;
+    position: sticky;
+    z-index: 150;
+    background-color: transparent;
 }
 
 .img1{
@@ -130,256 +103,3 @@
     transform: scaleX(-1);
     
 }
-
-h1{
-    color: aliceblue;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-nissi{
-    font-weight: bold;
-}
-
-body{
-    background-color:rgb(0, 0, 0) ;
-    width: -1000px;
-    
-}
-
-.pin1{
-    background-image: url(https://www.communicationstoday.co.in/wp-content/uploads/2022/07/Orange-boosts-its-metaverse-play.jpg);
-    background-size: cover;
-    height: 250px;
-    width: 500px;
-    border: 2px  red;
-    border-top-right-radius: 80px;
-    border-bottom-left-radius: 80px;
-    margin-top:170px;
-    margin-left: 150px;
-    margin-bottom: 140px;
-
-}
-
-.pan1{
-    height: 260px;
-    width: 515px;
-    border: 2px solid rgb(230, 33, 33);
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-top:-375px;
-    margin-left: 144px;
-    margin-bottom: 140px;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    
-
-}
-
-
-
-.pin2{
-    background-image: url(https://www.thestreet.com/.image/t_share/MTgyNDI1NTU5NTAwODU4Njk2/metaverse-thumb_2.jpg);
-    background-size: cover;
-    height: 180px;
-    width: 300px;
-    border: 2px  red;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    margin-left: 390px;
-    margin-top: -500px;
-    
-
-}
-
-.pan2{
-    height: 190px;
-    width: 315px;
-    border: 2px solid red;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    margin-left: 384px;
-    margin-top: -510px;
-    
-
-}
-
-
-.pin3{
-    background-image: url(https://forkast.news/wp-content/uploads/2022/04/metaverse-cover-1260x840.jpg);
-    background-size: cover;
-    height: 180px;
-    width: 300px;
-    border: 2px red;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    margin-top: 120px;
-    margin-left: 30px;
-   
-}
-
-.pan3{
-   
-    height: 190px;
-    width: 315px;
-    border: 2px solid red;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    margin-top: 110px;
-    margin-left: 20px;
-   
-}
-
-.dropdown-toggle{
-    color: #989797;
-    width: 700px;
-    background-color:transparent;
-    text-align: start;
-    padding: 10px;
-    border-color:#989797;
-    height: 50px;
-    margin-top: 30px;
-}
-
-.dropdown-toggle1{
-    color: #989797;
-    width: 700px;
-    background-color: rgb(223, 31, 63);
-    text-align: start;
-    padding: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-color:#989797;
-    margin-top :15px;
-    height: 150px;
-   
-}
-
-.dropdown-toggle2{
-    color: #989797;
-    width: 700px;
-    background-color:transparent;
-    text-align: start;
-    padding: 10px;
-    border-color:#989797;
-    margin-top: 15px;
-    height: 50px;
-   
-}
-
-
-.navbar-wrapper {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.content-wrapper {
-    position: sticky;
-    top: 60px; /* Adjust the value to match the height of your navbar */
-    z-index: 99;
-}
-
-.n1{
-    
-    height:290px;
-    background-image: url(https://softwaretestingpoint.com/wp-content/uploads/2022/03/Who-Really-Owns-the-Metaverse.jpeg);
-    background-size: cover;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius:50px;
-    width: 650px;
-    margin-left: -10px;
-    margin-top: 10px;
-    margin-bottom: -30px;
-    
-}
-
-.n2{
-    border: 2px solid red;
-    height:310px;
-    padding-top: -5p;
-    width: 670px;
-    margin-left: -19px;
-    margin-top: -300px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius:50px;
-
-    
-}
-
-.n3{
-    background-image: url(https://cdn.elearningindustry.com/wp-content/uploads/2022/12/shutterstock_2128971668.jpg);
-    background-size: cover;
-    height:168px;
-    background-color: rgb(27, 73, 73);
-    margin-top: -145px;
-    width: 280px;
-    margin-left: 400px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius:50px;
-}
-
-.n4{
-    border: 2px solid red;
-    height:190px;
-    margin-top: -180px;
-    width: 300px;
-    margin-left: 390px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius:50px;
-}
-
-.card {
-    width: 190px;
-    height: 254px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 0px 15px;
-    background-color: red;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    position: relative;
-    cursor: pointer;
-    font-weight: 900;
-    transition-duration: .2s;
-    background: linear-gradient(0deg, rgb(2, 7, 16), rgb(2, 7, 16));
-    margin-top: 10px;
-  }
-  
-  .card:before, .card:after {
-    content: '';
-    position: absolute;
-    left: -2px;
-    top: -2px;
-    border-radius: 10px;
-    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-          #0000ff, #00ff00,#ffff00, #ff0000);
-    background-size: 400%;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    z-index: -1;
-    animation: steam 20s linear infinite;
-  }
-  
-  @keyframes steam {
-    0% {
-      background-position: 0 0;
-    }
-  
-    50% {
-      background-position: 400% 0;
-    }
-  
-    100% {
-      background-position: 0 0;
-    }
-  }
-  
-  .card:after {
-    filter: blur(100px);
-  }
-  
-  

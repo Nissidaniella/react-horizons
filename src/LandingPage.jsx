@@ -8,15 +8,15 @@ class LandingPage extends React.Component {
 
             <div className="row content-wrapper page1">
             <div className="col-md-5 ">
-             <h1>Let's explore <br></br>your own <span className="page2">metaverse</span> <br></br>world.</h1>
+             <h1>Let's explore <br></br>your own <span className="name">metaverse</span> <br></br>world.</h1>
     
              <br></br>
-            <p className="page3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aut excepturi necessitatibus quis dolorem quo iusto adipisci minus ducimus deserunt nihil consequatur, omnis consectetur eaque incidunt architecto non </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aut excepturi necessitatibus quis dolorem quo iusto adipisci minus ducimus deserunt nihil consequatur, omnis consectetur eaque incidunt architecto non </p>
     
             <br></br>
-            <button type="button" className="btn btn b1 content-wrapper page4">Explore Now</button>
+            <button type="button" className="btn btn b1 content-wrapper button1">Explore Now</button>
         
-                    <button type="button" className="btn btn-default btn-l b2 content-wrapper page5">
+                    <button type="button" className="btn btn-default btn-l b2 content-wrapper button2">
                         <span class="glyphicon glyphicon-play-circle page6"> </span> Learn more
                     </button>
             </div>
